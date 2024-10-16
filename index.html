@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>CMSP Vida</title>
+</head>
+<body>
+  <div class="form-title"><span>Criador: Augustinho da ZL</span></div>
+  <div class="title-2"><span>SCRIPT CMSP VIDA</span></div>
+
+  <section class="bg-stars">
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </section>
+
+  <!-- Formulário para RA e Senha -->
+  <div class="Centralizar">
+    <div class="centered">
+      <h2>5K DE LIÇÃO KKKKKKKKK</h2>
+      <form id="lessonForm">
+        <div class="group">
+          <input type="text" id="name" placeholder="RA + digito + UF" required>
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="group">
+          <input type="password" id="password" placeholder="SUA SENHA" required>
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="button-group">
+          <button type="button" class="button" id="licoes-hoje" onclick="fazerlicaonormal(document.getElementById('name').value, document.getElementById('password').value, 'damn')">Lições de HOJE</button>
+          <button type="button" class="button" id="licoes-atrasadas" onclick="licoesAtrasadas(document.getElementById('name').value, document.getElementById('password').value, 'damn')">Lições ATRASADAS</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
